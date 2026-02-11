@@ -35,6 +35,9 @@ const Navbar = () => {
           <Button color="inherit">
             <Link to={'/s'} style={{color:'white'}}>State</Link> 
           </Button>
+          <Button color="inherit">
+            <Link to={'/c'} style={{color:'white'}}>counter</Link> 
+          </Button>
         </Toolbar>
       </AppBar>
     </Box>
