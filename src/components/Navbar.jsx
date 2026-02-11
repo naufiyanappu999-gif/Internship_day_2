@@ -38,6 +38,12 @@ const Navbar = () => {
           <Button color="inherit">
             <Link to={'/c'} style={{color:'white'}}>counter</Link> 
           </Button>
+          <Button color="inherit">
+            <Link to={'/e'} style={{color:'white'}}>example</Link> 
+          </Button>
+           <Button color="inherit">
+            <Link to={'/a'} style={{color:'white'}}>Apidata</Link> 
+          </Button>
         </Toolbar>
       </AppBar>
     </Box>
